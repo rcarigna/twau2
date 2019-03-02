@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script/testUI.rpy", line 5: end of line expected.
+    imagebutton hover "selected_play.png" action show("gren")
+                                          ^
+
+Ren'Py Version: Ren'Py 7.1.3.1092
+Sat Feb 16 16:55:20 2019

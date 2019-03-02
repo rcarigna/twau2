@@ -13,6 +13,11 @@ label testScene01:
         xpos 0.75 ypos 0.5
 
     show bigby neutral at left with dissolve
+    show selected_play with dissolve
+    $ time = 30 #Place how long you want the timer to run
+    $ timer_range = 30
+    $ timer_jump = "ts01A" #Option to jump to when the timer runs out
+    show screen countdown
     menu:
         "What should I say?"
 
@@ -24,7 +29,6 @@ label testScene01:
             jump ts01C
         "...":
             jump ts01D
-
 
 label ts01A:
     bigby "Fresh out. Sorry."

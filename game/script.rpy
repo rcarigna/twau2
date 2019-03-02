@@ -27,6 +27,6 @@ label start:
 
         jump chapter1
     elif sceneToPlay=='test':
-        jump testScene01
+        jump testUI
     else:
         "no sceneToPlay defined"
